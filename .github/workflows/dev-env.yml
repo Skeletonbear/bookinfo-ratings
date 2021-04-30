@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/skeletonbear/bookinfo_ratings:dev
+          tags: ghcr.io/skeletonbear/bookinfo-ratings:dev
