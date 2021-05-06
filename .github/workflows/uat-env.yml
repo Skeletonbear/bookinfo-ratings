@@ -37,7 +37,7 @@ jobs:
         with:
           helm: helm3
           release: bookinfo-uat-ratings
-          namespace: student84-bookinfo-uat
+          namespace: student56-bookinfo-uat
           chart: k8s/helm
           value-files: k8s/helm-values/values-bookinfo-uat-ratings.yaml
           values: |
