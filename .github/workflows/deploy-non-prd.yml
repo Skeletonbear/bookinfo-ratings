@@ -1,3 +1,4 @@
+  
 name: deploy-non-prd
 on:
   push:
@@ -49,7 +50,7 @@ jobs:
                 "COMMIT_SHA": "${{ github.sha }}"
               }
             }
-  acceptance:
+  acceptance-test:
     needs: deploy
     runs-on: ubuntu-20.04
     steps:
